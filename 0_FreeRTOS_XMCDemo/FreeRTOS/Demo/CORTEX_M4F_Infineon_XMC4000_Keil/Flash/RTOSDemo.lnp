@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+".\flash\system_xmc4400.o"
+".\flash\startup_xmc4400.o"
+".\flash\main.o"
+".\flash\regtest.o"
+".\flash\main_full.o"
+".\flash\main_blinky.o"
+".\flash\timers.o"
+".\flash\list.o"
+".\flash\queue.o"
+".\flash\tasks.o"
+".\flash\port.o"
+".\flash\heap_4.o"
+".\flash\semtest.o"
+".\flash\sp_flop.o"
+".\flash\blocktim.o"
+".\flash\countsem.o"
+".\flash\dynamic.o"
+".\flash\genqtest.o"
+".\flash\recmutex.o"
+--library_type=microlib --strict --scatter ".\Flash\RTOSDemo.sct"
+--entry=Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RTOSDemo.map" -o .\Flash\RTOSDemo.axf

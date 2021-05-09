@@ -1,0 +1,387 @@
+Dependencies for Project 'RTOSDemo', Target 'RTOSDemo - XMC4400': (DO NOT MODIFY !)
+F (.\startup_XMC4500.s)(0x6076C464)()
+F (.\System_XMC4500.c)(0x6076C464)()
+F (.\startup_XMC4200.s)(0x6076C464)()
+F (.\system_XMC4200.c)(0x6076C464)()
+F (.\system_XMC4400.c)(0x6076C464)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\system_xmc4400.o --omf_browse .\flash\system_xmc4400.crf --depend .\flash\system_xmc4400.d)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\system_XMC4400.h)(0x6076C464)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+F (.\startup_XMC4400.s)(0x6076C464)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "XMC4400_F100x512 SETA 1"--list .\startup_xmc4400.lst --xref -o .\flash\startup_xmc4400.o --depend .\flash\startup_xmc4400.d)
+F (.\main.c)(0x6077B2D3)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+F (.\FreeRTOSConfig.h)(0x6077F891)()
+F (.\RegTest.c)(0x6076D6DE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\regtest.o --omf_browse .\flash\regtest.crf --depend .\flash\regtest.d)
+F (.\main_full.c)(0x6076C464)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\main_full.o --omf_browse .\flash\main_full.crf --depend .\flash\main_full.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\timers.h)(0x60672BC8)
+I (..\..\Source\include\semphr.h)(0x60672BC8)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\Common\include\flop.h)(0x6076C46D)
+I (..\Common\include\semtest.h)(0x6076C46D)
+I (..\Common\include\dynamic.h)(0x6076C46D)
+I (..\Common\include\blocktim.h)(0x6076C46D)
+I (..\Common\include\countsem.h)(0x6076C46D)
+I (..\Common\include\GenQTest.h)(0x6076C46C)
+I (..\Common\include\recmutex.h)(0x6076C46D)
+F (.\main_blinky.c)(0x607962C5)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\main_blinky.o --omf_browse .\flash\main_blinky.crf --depend .\flash\main_blinky.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\semphr.h)(0x60672BC8)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+F (..\..\Source\timers.c)(0x60672BC8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\timers.o --omf_browse .\flash\timers.crf --depend .\flash\timers.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\..\Source\include\timers.h)(0x60672BC8)
+F (..\..\Source\list.c)(0x607D61FA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\list.o --omf_browse .\flash\list.crf --depend .\flash\list.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+F (..\..\Source\queue.c)(0x60672BC8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\queue.o --omf_browse .\flash\queue.crf --depend .\flash\queue.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+F (..\..\Source\tasks.c)(0x607EDC59)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\tasks.o --omf_browse .\flash\tasks.crf --depend .\flash\tasks.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\timers.h)(0x60672BC8)
+I (..\..\Source\include\stack_macros.h)(0x60672BC8)
+F (..\..\Source\portable\RVDS\ARM_CM4F\port.c)(0x60672BC8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\port.o --omf_browse .\flash\port.crf --depend .\flash\port.d)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+F (..\..\Source\portable\MemMang\heap_4.c)(0x60672BC8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\heap_4.o --omf_browse .\flash\heap_4.crf --depend .\flash\heap_4.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+F (..\Common\Minimal\semtest.c)(0x6076C46B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\semtest.o --omf_browse .\flash\semtest.crf --depend .\flash\semtest.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\semphr.h)(0x60672BC8)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\Common\include\semtest.h)(0x6076C46D)
+F (..\Common\Minimal\sp_flop.c)(0x6076C46B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\sp_flop.o --omf_browse .\flash\sp_flop.crf --depend .\flash\sp_flop.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\Common\include\flop.h)(0x6076C46D)
+F (..\Common\Minimal\blocktim.c)(0x6076C46B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\blocktim.o --omf_browse .\flash\blocktim.crf --depend .\flash\blocktim.d)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\Common\include\blocktim.h)(0x6076C46D)
+F (..\Common\Minimal\countsem.c)(0x6076C46B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\countsem.o --omf_browse .\flash\countsem.crf --depend .\flash\countsem.d)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\semphr.h)(0x60672BC8)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\Common\include\countsem.h)(0x6076C46D)
+F (..\Common\Minimal\dynamic.c)(0x6076C46B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\dynamic.o --omf_browse .\flash\dynamic.crf --depend .\flash\dynamic.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\semphr.h)(0x60672BC8)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\Common\include\dynamic.h)(0x6076C46D)
+F (..\Common\Minimal\GenQTest.c)(0x6076C46B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\genqtest.o --omf_browse .\flash\genqtest.crf --depend .\flash\genqtest.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\..\Source\include\semphr.h)(0x60672BC8)
+I (..\Common\include\GenQTest.h)(0x6076C46C)
+F (..\Common\Minimal\recmutex.c)(0x6076C46B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\CORTEX_M4F_Infineon_XMC4000_Keil -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM4F -I ..\Common\include --cpu Cortex-M4.fp --no_allow_fpreg_for_nonfpdata-I.\RTE\_RTOSDemo_-_XMC4400-ID:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-ID:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include-D__UVISION_VERSION="526" -D_RTE_ -DXMC4400_F100x512 -Drvkdm -DPART_XMC4400 --C99-o .\flash\recmutex.o --omf_browse .\flash\recmutex.crf --depend .\flash\recmutex.d)
+I (..\..\Source\include\FreeRTOS.h)(0x60672BC8)
+I (D:\keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\FreeRTOSConfig.h)(0x6077F891)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h)(0x594727D2)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1F3E94)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B5843C6)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B617084)
+I (D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h)(0x578701B4)
+I (..\CORTEX_M4F_Infineon_XMC4000_Keil\System_XMC4200.h)(0x6076C464)
+I (..\..\Source\include\projdefs.h)(0x60672BC8)
+I (..\..\Source\include\portable.h)(0x60672BC8)
+I (..\..\Source\include\deprecated_definitions.h)(0x60672BC8)
+I (..\..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60672BC8)
+I (..\..\Source\include\mpu_wrappers.h)(0x60672BC8)
+I (..\..\Source\include\task.h)(0x60672BC8)
+I (..\..\Source\include\list.h)(0x607D2439)
+I (..\..\Source\include\semphr.h)(0x60672BC8)
+I (..\..\Source\include\queue.h)(0x60672BC8)
+I (..\Common\include\recmutex.h)(0x6076C46D)

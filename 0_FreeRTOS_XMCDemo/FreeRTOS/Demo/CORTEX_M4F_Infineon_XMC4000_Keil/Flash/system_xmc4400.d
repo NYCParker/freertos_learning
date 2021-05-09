@@ -1,0 +1,10 @@
+.\flash\system_xmc4400.o: system_XMC4400.c
+.\flash\system_xmc4400.o: ..\CORTEX_M4F_Infineon_XMC4000_Keil\system_XMC4400.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\XMC4400.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h
+.\flash\system_xmc4400.o: D:\keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.11.0\Device\XMC4400_series\Include\system_XMC4400.h

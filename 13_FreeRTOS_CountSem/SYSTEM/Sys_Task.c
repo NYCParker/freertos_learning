@@ -157,9 +157,7 @@ int AppTaskCreate(void)
 {
 	BaseType_t xReturn = pdPASS;
 	
-	printf("消息队列实验\n");
-	printf("串口发送指令，Send任务向队列发送消息\n");
-	printf("Receive任务从队列接收消息并显示\n");
+	printf("计数信号量实验\n");
 	
 	xReturn = xTaskCreate((TaskFunction_t )AppTaskCreate_Task, 
 						 (const char* )"AppTaskCreate_Task",

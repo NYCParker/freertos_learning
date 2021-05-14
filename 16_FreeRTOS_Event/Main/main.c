@@ -1,7 +1,7 @@
 
 /*************
 Author:Yunchuan Ni   FreeRTOS Modification based on Amazon FreeRTOS*****
-Description: 队列
+Description: 事件
 *************/
 
 /*
@@ -35,7 +35,6 @@ static void prvSetupHardware( void )
 	                                  //（最高位由厂商决定，XMC4400 0~63可编程优先级 bit5：1 抢占 bit 0 子优先级 63最低）
 	GPIO_Init();
 	UART_Init();
-	
 	IRQ_Enable();
 }
 

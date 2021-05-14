@@ -133,7 +133,7 @@ int AppTaskCreate(void)
 {
 	BaseType_t xReturn = pdPASS;
 	
-	printf("优先级翻转实验\n");
+	printf("互斥量实验\n");
 	
 	xReturn = xTaskCreate((TaskFunction_t )AppTaskCreate_Task, 
 						 (const char* )"AppTaskCreate_Task",

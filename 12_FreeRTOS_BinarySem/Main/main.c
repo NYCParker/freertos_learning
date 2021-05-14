@@ -1,7 +1,7 @@
 
 /*************
 Author:Yunchuan Ni   FreeRTOS Modification based on Amazon FreeRTOS*****
-Description: 动态创建多任务
+Description: 二值信号量
 *************/
 
 /*
